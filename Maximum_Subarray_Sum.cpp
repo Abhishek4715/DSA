@@ -33,4 +33,6 @@ int main () {
     }
 
     cout << "Maximum subarray sum: " << max_sum << endl;
+
+    return 0;
 }
