@@ -34,4 +34,6 @@ int main () {
 
     //Displaying Subarray Sum
     cout << "The maximum Subarray Sum: " << max_sum << endl;
+
+    return 0;
 }
