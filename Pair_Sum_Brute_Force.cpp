@@ -5,7 +5,7 @@ int main () {
 
     //Taking size of array
     int n;
-    cout << "Enter size of element: ";
+    cout << "Enter size of Array: ";
     cin >> n;
 
     //Declaring array
@@ -30,12 +30,10 @@ int main () {
             if(arr[i]+arr[j] == x) 
                 cout << "Pair: " << arr[i] << " & " << arr[j] << " found at indexs: " << i <<" & " << j << endl;
                 check = 1;
-            
-             
         }
     }
 
-    if (check != 1) {
+    if (check == 0) {
         cout << "\nThe pair of sum " << x << " was not found\n";
     }
     
