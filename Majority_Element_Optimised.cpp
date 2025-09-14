@@ -23,7 +23,7 @@ int main () {
 
 
     //Sorting vector
-    sort(vec.begin(), vec.end());
+    sort(vec.begin(), vec.end());           //O(n) = nlogn
 
 
         //Finding frequency
